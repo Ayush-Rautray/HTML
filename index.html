@@ -4,114 +4,201 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  <style>
-    body {
-    background-color: rgb(244, 152, 235);
-    margin: 20px;
-
-}
-
-h1 {
-    color: hsl(243, 46%, 9%);
-    font-size: 7vh;
-    font-family: Gill Sans;
-    font-size: 55px;
-    text-align: center;
-    text-shadow: 5px 5px 10px rgb(30, 30, 162);
-
-}
-
-h2 {
-    color: rgb(14, 13, 35);
-    font-size: 40px;
-    font-family: Gill Sans;
-    text-shadow: 5px 5px 10px rgb(30, 30, 162);
-}
-
-h3 {
-    color: rgb(14, 13, 35);
-    font-size: 30px;
-    font-family: Gill Sans;
-    text-shadow: 5px 5px 10px rgb(30, 30, 162);
-}
-
-p {
-    color: rgb(23, 20, 80);
-    text-align: center;
-    text-shadow: 5px 5px 10px rgb(8, 0, 0);
-    font-size: 4vh;
-}
-
-div {
-    color: #30032f;
-}
 
 
-.center {
-    display: inline-block;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: 10px solid magenta;
-}
+    <style>
+            body {
+			background-color: #849bf0;
+			font-family: Verdana;
+			text-align: center;
+		}
 
-a {
-    color: #30032f;
-}
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
 
-#hello {
-    background-color: rgb(46, 139, 87, 0.25);
-    box-shadow: 20px 20px 20px #830172;
-    font-family: Georgia;
-    padding: 25px 25px;
-    margin: 11px;
-    margin-top: 50px;
-}
-  </style>
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input, 
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio 
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: #6a88f6;
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+	</style>
+    </style>
+
+
+
+
 </head>
 <body>
-    <div id="hello">
-    <h1>Odisha </h1>
-    <div>
-        <img src="odisha.jpg" alt="photo" class="center ">
-    </div>
-    <h2>Settlement patterns</h2>
-    <div>
-        <p>Odisha has a predominantly rural population.<br>
-            The irrigated rice-farming region of the coastal plains is heavily populated.  <br>  
-            Although some tribal peoples have settled in the plains, most live in the hill areas. <br>
-            The major cities are  <a href="https://en.wikipedia.org/wiki/Bhubaneswar"><u>Bhubaneshwar</u> </a>, <a href="https://en.wikipedia.org/wiki/Cuttack">Cuttack</a>,<a href="https://en.wikipedia.org/wiki/Brahmapur,_Odisha#:~:text=The%20city%20is%20administered%20by,its%20150%20years%20in%202017.">Brahmapur</a> ,
-            and <a href="https://en.wikipedia.org/wiki/Puri">Puri</a>. <br>
-            All are in the coastal region except <a href="https://en.wikipedia.org/wiki/Rourkela">Rourkela</a> and  <a href="https://en.wikipedia.org/wiki/Sambalpur">Sambalpur</a>, which are in the northwestern 
-            part of the state. <br></p>
-            
-            <h2>Economy of Odisha</h2>
+     <h1>Survey Form </h1>
+
+     <form  id=form >
+
+
+        <div class="form-control">
+
+            <label for="Name" id="label-name"> Name </label>
+            <input type="text" id "name"  placeholder="Enter your name">
            
-            <h3>Resources and power</h3>
-            <div>
-                <p>
-                    The mineral resources of Odisha are considerable. The state is a national leader in the production of chromite, bauxite (aluminum ore), manganese ore, graphite, and nickel ore. It is also one of the top producers of high-quality iron ore. Coal from the Talcher field near the east-central city of Dhenkanal provides the energy base for a number of the state’s large-scale industries.
+        </div>
 
-                    Aside from its “captive power plants” (power plants that are dedicated to specific industries), the bulk of Odisha’s energy comes from hydroelectric stations. Indeed, the great Mahanadi River system has been harnessed by one of the most ambitious multiple-purpose projects on the subcontinent; the Hirakud Dam and the Machkund hydroelectric project, together with several smaller units, provide flood control, irrigation, and power to the entire lower basin. Thermal plants are a significant secondary source of power
-                </p>
-            </div>
 
-            <div>
-                <h3>Transportation</h3>
-                <p>Communication facilities were undeveloped before 1947, but the merger of a number of feudatory states with what was then Orissa and the discovery of mineral resources required the construction of a network of good roads. Beginning in the mid-20th century, bold construction programs—such as the building of bridges over most of the principal rivers—were undertaken by the state government, and by the early 21st century national highways and major roads covered most regions of the state.
+        <div class="form-control ">
+            <label for="Email"id=" lable-email"> Email</label>
+            <input type="text" id="email" placeholder="Enter your email ">
+        </div>
+        
 
-                    Odisha also is served by a number of railways. Major train stations are located in Bhubaneshwar, Puri, Baleshwar, Cuttack, Khurda Road (just southwest of Bhubaneshwar), and Brahmapur—all in the coastal plains. There is an all-weather, sheltered, deep-draft port at Paradip, at the mouth of Mahanadi River. That port has become an important departure point for the state’s exports, especially coal. An airport in Bhubaneshwar offers domestic service.</p>
-            </div>
-    </div>
+        <div class="form-control ">
+            <label for="age" id="lable-age">Age </label>
+            <input type="text" id="age" placeholder="Enter your age">
 
-    <div>
-        <h3>Agriculture</h3>
-        <p>
-       Although much of the land is either unproductive or unsuitable for more than a single annual crop, about three-fifths of the working population is engaged in agriculture, and the sector accounts for roughly one-sixth of the state’s gross product. Cultivated lands occupy about one-third of the total area of the state; about three-fourths of those lands are sown with rice. Other important crops include pulses (legumes), oilseeds, vegetables, cereals (such as wheat, corn [maize], sorghum, and pearl millet), jute, sugarcane, coconuts, and spices. Low sunlight availability, modest soil quality, limited use of fertilizer, and variable volume and timing of the monsoon rains combine to give the state’s farmers generally low yields. Agricultural families sometimes supplement their income through nonagricultural pursuits, as farming does not typically provide year-round employment.
-   </p>
+        </div>
 
-   </div>
-</div>
+
+        <div class="form-control">
+			<label for="role" id="label-role">Which option best describes you?</label>
+            <select name="role" id="role">
+                <option value="student">student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+				<option value="other">Other</option>
+            </select>
+        </div>
+
+
+
+		<div class="form-control">
+            <label>
+                Would you recommend GeeksforGeeks
+                to a friend?
+            </label>
+ 
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1"
+                       name="recommed">Yes
+                  </input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2"
+                       name="recommed">No
+                  </input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3"
+                       name="recommed">Maybe
+                  </input>
+            </label>
+        </div>
+ 
+        <div cl
+
+
+		
+
+        <div class="form-control">
+			<label>Languages and Frameworks known
+				<small>(Check all that apply)</small>
+			</label>
+			
+			<label for="inp-1">
+				<input type="checkbox" name="inp">C</input>
+			</label>
+
+			<label for="inp-2">
+				<input type="checkbox" name="inp">C++</input>
+			</label>
+
+			<label for="inp-3">
+				<input type="checkbox" name="inp">C#</input>
+			</label>
+
+			<label for="inp-4">
+				<input type="checkbox" name="inp">Java</input>
+			</label>
+
+			<label for="inp-5">
+				<input type="checkbox" name="inp">Python</input>
+			</label>
+
+			<label for="inp-6">
+				<input type="checkbox" name="inp">JavaScript</input>
+			</label>
+
+			<label for="inp-7">
+				<input type="checkbox" name="inp">React</input>
+			</label>
+
+			<label for="inp-7">
+				<input type="checkbox" name="inp">Angular</input>
+			</label>
+
+			<label for="inp-7">
+				<input type="checkbox" name="inp">Django</input>
+			</label>
+
+			<label for="inp-7">
+				<input type="checkbox" name="inp">Spring</input>
+			</label>
+		</div>
+
+
+        <div class="form-control">
+
+			<label for="comment">Any comments or suggestions</label>
+			<textarea name="comment" id="comment"placeholder="Enter your comment here"></textarea>
+
+		</div>
+
+
+        <button type="submit" value="submit">Submit</button>
+
+    </form>
+
 </body>
 </html>
